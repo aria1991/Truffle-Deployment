@@ -20,6 +20,6 @@ module.exports = function(callback) {
       console.log(error);
     })
     .finally(function() {
-      callback()
+      callback();
     });
 };
