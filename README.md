@@ -38,3 +38,10 @@ truffle(development)> fileStorage.getFileHash(0)
 
 ```
 
+To run the script, open a terminal and navigate to the root of your Truffle project, then run the following command:
+
+```
+truffle exec deploy.js
+
+```
+> This will compile your contract, deploy it to the Ethereum network specified in the `truffle-config.js` file, and print the contract's address to the console.
