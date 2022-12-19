@@ -16,7 +16,7 @@ Once you have Truffle and an Ethereum network set up, you can use the following 
 - In the migration file, use the `deployer.deploy` method to deploy your contract to the Ethereum network. You will need to pass the contract name and any constructor arguments that your contract requires as arguments to the `deploy` method.
 
 
-Here is an example of a Truffle migration file that deploys the `FileStorage` contract from the previous example:
+Here is an example of a Truffle migration file that deploys the `FileStorage` contract as an example:
 
 ```javascript
 const FileStorage = artifacts.require("FileStorage");
