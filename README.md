@@ -1,5 +1,5 @@
 # Truffle-Deployment
-Deploying your hashed-files from your machine on an Ethereum network through truffle
+Deploying your hashed-files from your machine on Ethereum network through truffle
 
 > To deploy a contract to the Ethereum network using Truffle, you will need to have Truffle installed on your development machine, as well as an Ethereum network that you can connect to. You can either use a public test network like **Rinkeby** or **Kovan**, or set up your own private network using tools like **Ganache** or **geth**.
 
