@@ -1,6 +1,45 @@
 # Truffle-Deployment
 Deploying your hashed-files from your machine on Ethereum network through truffle
 
+```markdown
+                                                | Deployment Server |
+                                                |                   |
+  | Local Machine |                             |                   |
+  | ------------- |                             |                   |
+  |   Truffle     | --------------------------> |                   |
+  |                |    Package hashed files    |                   |
+  |                | ---------------------------->                   |
+  |                |    Wait for confirmation    |                   |
+  |                | <----------------------------                   |
+  |                |    Confirm successful       |                   |
+  |                |    packaging                |                   |
+  |                | <--------------------------- |                   |
+  |                |    Set up Ethereum account  |                   |
+  |                |    and wallet              |                   |
+  |                | ---------------------------->                   |
+  |                |    Wait for confirmation    |                   |
+  |                | <----------------------------                   |
+  |                |    Confirm successful       |                   |
+  |                |    set up                  |                   |
+  |                | <--------------------------- |                   |
+  |                |    Connect to Ethereum      |                   |
+  |                |    network                  |                   |
+  |                | ---------------------------->                   |
+  |                |    Wait for confirmation    |                   |
+  |                | <----------------------------                   |
+  |                |    Confirm successful       |                   |
+  |                |    connection              |                   |
+  |                | <--------------------------- |                   |
+  |                |    Deploy hashed files      |                   |
+  |                | ---------------------------->                   |
+  |                |    Wait for confirmation    |                   |
+  |                | <----------------------------                   |
+  |                |    Confirm successful       |                   |
+  |                |    deployment               |                   |
+  |                | <--------------------------- |                   |
+
+```
+
 > To deploy a contract to the Ethereum network using Truffle, you will need to have Truffle installed on your development machine, as well as an Ethereum network that you can connect to. You can either use a public test network like **Rinkeby** or **Kovan**, or set up your own private network using tools like **Ganache** or **geth**.
 
 Once you have Truffle and an Ethereum network set up, you can use the following steps to deploy your contract:
